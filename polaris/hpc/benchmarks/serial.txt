@@ -1,0 +1,10 @@
+Serial baseline
+
+Dataset: Polaris
+Jobs: 262700
+
+Run 1: 0.59
+Run 2: 0.57
+Run 3: 0.57
+Run 4: 0.57
+Run 5: 0.58

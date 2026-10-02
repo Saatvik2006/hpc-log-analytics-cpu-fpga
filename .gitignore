@@ -1,0 +1,30 @@
+# compiled binaries
+nasa/hpc/serial_parser
+nasa/hpc/openmp_parser
+nasa/hpc/mpi_parser
+nasa/hpc/hybrid_parser
+polaris/hpc/serial
+polaris/hpc/openmp
+polaris/hpc/mpi
+polaris/hpc/hybrid
+
+# build output
+*.o
+*.d
+*.a
+obj_dir/
+obj_*/
+*.vcd
+
+# datasets (large) - keep only the small Polaris FPGA samples
+datasets/*.log
+datasets/*.csv
+!polaris/fpga/datasets/*.csv
+**/access.log
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+*~
+*.swp
